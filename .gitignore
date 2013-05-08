@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# But not this files
+!.gitignore
+!.gitmodules
+!.vimrc
+!.vimrc.before
+!.vimrc.after
+!.profile
+!.zshrc
+!.bashrc
+!.vim
+!.janus/*
