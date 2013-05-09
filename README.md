@@ -3,7 +3,9 @@ Welcome to rbatista dotfiles
 
 This project contains some nice plugins for VIM and ZSH.
 I use Janus to distribution of vim plugins and mapping them to VIM.
-(https://github.com/carlhuda/janus).
+(https://github.com/carlhuda/janus), Oh-my-zsh to ZSH plugins (https://github.com/robbyrussell/oh-my-zsh)
+and gnome-terminal-solarized to terminal and shell colors (https://github.com/sigurdga/gnome-terminal-colors-solarized)
+and a fix to solarized 256 colors (https://github.com/seebi/dircolors-solarized).
 
 What is diferent?
 -----------------
