@@ -1,7 +1,7 @@
 #!/bin/bash
 
-bkp_dir = "$HOME/.dotfiles_old"
-target_dir = "$HOME/.dotfiles"
+bkp_dir="$HOME/.dotfiles_old"
+target_dir="$HOME/.dotfiles"
 
 files=(".vimrc" ".vim.after" ".bashrc" ".profile" ".vim" ".zshrc")
 
@@ -20,8 +20,8 @@ echo "\033[0;34nand updating...\033[0m"
 /usr/bin/env git submodules foreach git push origin master
 
 echo "\033[0;34nLooking for existing configs...\033[0m"
-echo "\033[0;34nYour configurations will be backuped in ~/.dotfiles_old/\033[0m"
-mkdir $HOME/$bkp_dir
+echo "\033[0;34nYour configurations will be backuped in $bkp_dir\033[0m"
+mkdir $bkp_dir
 
 for i in $files
 do
