@@ -4,3 +4,6 @@
 [submodule ".vim"]
 	path = .vim
 	url = git@github.com:carlhuda/janus.git
+[submodule ".gnome-terminal-solarized"]
+	path = .gnome-terminal-solarized
+	url = git://github.com/sigurdga/gnome-terminal-colors-solarized.git
