@@ -19,7 +19,7 @@ What is diferent?
 Instalation
 -----------
 I do an [automatic
-installer][https://github.com/rbatista/dotfiles/blob/master/tools/install.sh] to make your life more easy. You can
+installer](https://github.com/rbatista/dotfiles/blob/master/tools/install.sh) to make your life more easy. You can
 execute this command in your terminal to automatic instalation:
 
 ```bash
